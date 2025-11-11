@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рожа 404</title>
+    <style>
+        body { background: black; color: white; text-align: center; padding: 50px; }
+        .face { width: 200px; height: 200px; background: red; border-radius: 50%; margin: 20px auto; position: relative; }
+        .eyes { position: absolute; top: 50px; width: 100%; display: flex; justify-content: space-around; }
+        .eye { width: 40px; height: 40px; background: white; border-radius: 50%; }
+        .mouth { position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); width: 80px; height: 30px; background: white; border-radius: 0 0 40px 40px; }
+        h1 { color: red; font-size: 40px; }
+    </style>
+</head>
+<body>
+    <h1>😭 БЛЯДЬ, 404! 😭</h1>
+    <div class="face">
+        <div class="eyes">
+            <div class="eye"></div>
+            <div class="eye"></div>
+        </div>
+        <div class="mouth"></div>
+    </div>
+    <p style="font-size: 24px;">СУКА, РАБОТАЕТ!</p>
+</body>
+</html>
